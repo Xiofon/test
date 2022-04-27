@@ -1,0 +1,6 @@
+s = str(input("輸入一組4位數字為:"))
+print("輸出加密後的數字為:",end="")
+print((int(s[2])+7)%10,end="")
+print((int(s[3])+7)%10,end="")
+print((int(s[0])+7)%10,end="")
+print((int(s[1])+7)%10,end="")
